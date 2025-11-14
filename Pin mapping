@@ -1,0 +1,32 @@
+| **Signal / Port** | **Description**           | **Basys 3 Component**    | **Physical Pin** | **IOSTANDARD** |
+| ----------------- | ------------------------- | ------------------------ | ---------------- | -------------- |
+| `clk`             | 100 MHz onboard clock     | Onboard oscillator       | **W5**           | LVCMOS33       |
+| `rst`             | Reset button              | BTNC (center pushbutton) | **U18**          | LVCMOS33       |
+| `btnU`            | Night-mode toggle         | BTNU (up button)         | **T18**          | LVCMOS33       |
+| `btnL`            | M1 + MT override          | BTNL (left button)       | **W19**          | LVCMOS33       |
+| `btnR`            | M2 override               | BTNR (right button)      | **T17**          | LVCMOS33       |
+| `btnD`            | Side-road (S) override    | BTND (down button)       | **U17**          | LVCMOS33       |
+| `light_M1[0]`     | M1 Green                  | JA1 (PMOD JA Pin 1)      | **J1**           | LVCMOS33       |
+| `light_M1[1]`     | M1 Yellow                 | JA2 (PMOD JA Pin 2)      | **L2**           | LVCMOS33       |
+| `light_M1[2]`     | M1 Red                    | JA3 (PMOD JA Pin 3)      | **J2**           | LVCMOS33       |
+| `light_MT[0]`     | MT Green                  | JA4 (PMOD JA Pin 4)      | **G2**           | LVCMOS33       |
+| `light_MT[1]`     | MT Yellow                 | JA7 (PMOD JA Pin 7)      | **H1**           | LVCMOS33       |
+| `light_MT[2]`     | MT Red                    | JA8 (PMOD JA Pin 8)      | **K2**           | LVCMOS33       |
+| `light_M2[0]`     | M2 Green                  | JB1 (PMOD JB Pin 1)      | **A14**          | LVCMOS33       |
+| `light_M2[1]`     | M2 Yellow                 | JB2 (PMOD JB Pin 2)      | **A16**          | LVCMOS33       |
+| `light_M2[2]`     | M2 Red                    | JB3 (PMOD JB Pin 3)      | **B15**          | LVCMOS33       |
+| `light_S[0]`      | S Green                   | JC1 (PMOD JC Pin 1)      | **K17**          | LVCMOS33       |
+| `light_S[1]`      | S Yellow                  | JC2 (PMOD JC Pin 2)      | **M18**          | LVCMOS33       |
+| `light_S[2]`      | S Red                     | JC3 (PMOD JC Pin 3)      | **N17**          | LVCMOS33       |
+| `seg[0]`          | Segment a                 | Seven-seg display        | **W7**           | LVCMOS33       |
+| `seg[1]`          | Segment b                 |                          | **W6**           | LVCMOS33       |
+| `seg[2]`          | Segment c                 |                          | **U8**           | LVCMOS33       |
+| `seg[3]`          | Segment d                 |                          | **V8**           | LVCMOS33       |
+| `seg[4]`          | Segment e                 |                          | **U5**           | LVCMOS33       |
+| `seg[5]`          | Segment f                 |                          | **V5**           | LVCMOS33       |
+| `seg[6]`          | Segment g                 |                          | **U7**           | LVCMOS33       |
+| `dp`              | Decimal point             |                          | **V7**           | LVCMOS33       |
+| `an[3]`           | 7-Seg digit 3 (leftmost)  |                          | **W4**           | LVCMOS33       |
+| `an[2]`           | 7-Seg digit 2             |                          | **V4**           | LVCMOS33       |
+| `an[1]`           | 7-Seg digit 1             |                          | **U4**           | LVCMOS33       |
+| `an[0]`           | 7-Seg digit 0 (rightmost) |                          | **U2**           | LVCMOS33       |
